@@ -421,3 +421,32 @@ td,
 th {
   padding: 0;
 }
+
+.hide {
+  display: none !important;
+}
+.w-100 {
+  width:100%;
+}
+.h-383{
+  height: 383px;
+}
+#main-carousel .p-carousel-container .p-carousel-prev{
+  visibility: hidden;
+  left: 45px;
+  z-index: 1;
+}
+#main-carousel .p-carousel-container .p-carousel-next{
+  visibility: hidden;
+  right: 45px;
+  z-index: 1;
+}
+.R-WO {
+  position: fixed;
+  top: 0;
+  transition: all .25s ease-in-out;
+  transform: translateZ(0);
+  width: 100%;
+  z-index: 99;
+  margin-bottom: 10px;
+}
